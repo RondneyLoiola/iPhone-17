@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function Colors() {
     const colors = [
-        { id: 'blue', name: 'Titânio Azul', image: '../public/iphone-blue.jpg', colorClass: 'bg-blue-500' },
-        { id: 'silver', name: 'Titânio Natural', image: '../public/iphone-silver.jpg', colorClass: 'bg-gray-300' },
-        { id: 'orange', name: 'Titânio Laranja', image: '../public/iphone-orange.jpg', colorClass: 'bg-orange-500' }
+        { id: 'blue', name: 'Titânio Azul', image: '/src/assets/iphone-blue.jpg', colorClass: 'bg-blue-500' },
+        { id: 'silver', name: 'Titânio Natural', image: '/src/assets/iphone-silver.jpg', colorClass: 'bg-gray-300' },
+        { id: 'orange', name: 'Titânio Laranja', image: '/src/assets/iphone-orange.jpg', colorClass: 'bg-orange-500' }
     ];
 
     const models = [
